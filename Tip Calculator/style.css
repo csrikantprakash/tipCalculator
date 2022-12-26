@@ -1,0 +1,50 @@
+.app-container{
+    background-color: hsl(172, 67%, 45%);
+    width: 1440px;
+    height: 500px;
+
+}
+.tipCalculator-container{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+}
+.input-side{
+    background-color: white;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.output-side{
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 300px;
+}
+.tip-input button{
+    margin: 2px;
+}
+#custom{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.percentage{
+    color: white;
+    border: none;
+    background-color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    width : 50px;
+    height: 30px;
+}
+#custom-btn{
+    border: none;
+    border-radius: 5px;
+    width : 60px;
+    height: 30px;
+}
